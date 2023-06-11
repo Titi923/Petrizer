@@ -3,9 +3,10 @@ export default {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
         fontFamily: {
-            primary: 'Orbitron',
-            secondary: 'Rajdhani',
-            tertiary: 'Aldrich',
+            primary: 'Georgia',
+            secondary: 'Cambria',
+            tertiary: 'serift',
+
         },
         container: {
             padding: {
@@ -24,7 +25,7 @@ export default {
                 accent: '#B809C3',
             },
             backgroundImage: {
-                about: "url('./assets/about.png')",
+                about: "url('./assets/picture.jpg')",
                 services: "url('./assets/services.png')",
             },
         },

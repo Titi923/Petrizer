@@ -18,10 +18,10 @@ body {
 }
 
 .btn:hover {
-    background: linear-gradient(92.23deg,
-            #52c3ff,
+    background: linear-gradient(90deg,
+            #ff00b7,
             #4a56ff,
-            #ff00b7);
+            #52c3ff);
 }
 
 .gradient,
@@ -69,7 +69,7 @@ body {
     }
 
     .text-gradient {
-        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E2] to-[#FF56F5] font-bold font-primary hover: from-[#FF56F6] hover:to-[#42A6E3];
+        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E2] to-[#FF56F5] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
     }
 
     /* .section {
