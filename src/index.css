@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-    /* background-color: #333; */
+    background-color: #1C0CFF;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FF09C0' stroke-width='55.5' stroke-opacity='0' %3E%3Ccircle fill='%231C0CFF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%230031ff' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%230040fc' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%230048f4' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23004ce9' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23004ddb' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23004dcb' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23004bb9' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%230048a7' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23004593' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23004280' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23003e6e' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23003a5d' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2300364d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2300313f' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23002d33' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23002929' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23012422' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .btn {
@@ -11,65 +14,65 @@ body {
             #52c3ff,
             #4a56ff,
             #ff00b7);
-            box-shadow: 0px 4px 107px rgba(255, 86, 246, 0.51);
-    }
+    box-shadow: 0px 4px 107px rgba(255, 86, 246, 0.51);
+}
 
-    .btn:hover {
-        background: linear-gradient(92.23deg,
+.btn:hover {
+    background: linear-gradient(92.23deg,
             #52c3ff,
             #4a56ff,
             #ff00b7);
-    }
+}
 
-    .gradient,
-    .active {
-        background: linear-gradient(170deg,
+.gradient,
+.active {
+    background: linear-gradient(170deg,
             #52c3ff,
             #4a56ff,
             #ff00b7);
+}
+
+.active {
+    color: #fff;
+    padding: .9rem;
+    font-size: 200%;
+    transition: all 0.5s ease;
+}
+
+@layer base {
+    body {
+        @apply font-secondary text-lg leading-8 text-white;
     }
 
-    .active {
-        color: #fff;
-        padding: 1rem;
-        border-radius: 100%;
-        font-size: 200%;
+    .h2 {
+        @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
     }
 
-    @layer base {
-        body {
-            @apply font-secondary text-lg leading-8 text-white;
-        }
+    .h3 {
+        @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    }
 
-        .h2 {
-            @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
-        }
+    .btn {
+        @apply rounded-full font-primary text-white font-medium;
+    }
 
-        .h3 {
-            @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
-        }
+    .btn-sm {
+        @apply h-[48px] px-6 text-sm;
+    }
 
-        .btn {
-            @apply rounded-full font-primary text-white font-medium;
-        }
+    .btn-lg {
+        @apply h-[56px] px-10 text-base;
+    }
 
-        .btn-sm {
-            @apply h-[48px] px-6 text-sm;
-        }
+    .btn-link {
+        @apply text-base;
+    }
 
-        .btn-lg {
-            @apply h-[56px] px-10 text-base;
-        }
+    .text-gradient {
+        @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E2] to-[#FF56F5] font-bold font-primary hover: from-[#FF56F6] hover:to-[#42A6E3];
+    }
 
-        .btn-link {
-            @apply text-base;
-        }
-
-        .text-gradient {
-            @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E2] to-[#FF56F5] font-bold font-primary hover: from-[#FF56F6] hover:to-[#42A6E3];
-        }
-
-        /* .section {
+    /* .section {
         @apply py-8 lg:py-24 lg:h-screen flex items-center;
     } */
-    }
+}
