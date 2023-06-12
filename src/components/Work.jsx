@@ -57,7 +57,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                                <a href="./src/projects/Project_1_Website_Designer/index_project_1.html" target='_blank' className="btn btn-sm px-12 py-5">
+                                <a href="https://silly-pegasus-dd1702.netlify.app/project_1_website_designer/index_project_1" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -84,7 +84,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                            <a href="./src/projects/Project_2_Real_Estate_Website/index.html" target='_blank' className="btn btn-sm px-12 py-5">
+                            <a href="https://silly-pegasus-dd1702.netlify.app/project_8_real_estate_website/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                            <a href="./src/projects/Project_5_Web_Weather_api_App/index.html" target='_blank' className="btn btn-sm px-12 py-5">
+                            <a href="https://silly-pegasus-dd1702.netlify.app/project_4_web_weather_api_app/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -192,7 +192,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                                <a href="./src/projects/Project_6_Resume_Page/index.html" target='_blank' className="btn btn-sm px-12 py-5">
+                                <a href="https://silly-pegasus-dd1702.netlify.app/project_5_resume_page/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
