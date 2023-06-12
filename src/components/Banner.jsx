@@ -1,5 +1,5 @@
 // Images
-import Image from '../assets/picture.jpg';
+import Image from '../assets/banner.png';
 // Icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // Typing animation
@@ -26,7 +26,7 @@ const Banner = () => {
                             viewport={{ once: false, amount: 0.7 }}
                             className="mb-2 text-[50px] font-bold leading-[0.8] lg:text-[80px]"
                         >
-                            Petrisor Buciuta
+                            Petrizer
                         </motion.h1>
                         <motion.div
                             variants={fadeIn('right', 0.3)}
@@ -63,11 +63,11 @@ const Banner = () => {
                             </a>
                         </div>
                         {/* Socials */}
-                        <div className="mx-auto flex max-w-max gap-x-6 text-[30px] lg:mx-0">
-                            <a href="#">
+                        <div className="mx-auto flex max-w-max gap-x-6 text-[40px] lg:mx-0">
+                            <a href="https://github.com/titi923" className='transition-color duration-300 ease hover:scale-125'>
                                 <FaGithub />
                             </a>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/petrisor-buciuta-9078a6223/" className='transition-color duration-300 ease hover:scale-125'>
                                 <FaLinkedin />
                             </a>
                         </div>
@@ -78,7 +78,6 @@ const Banner = () => {
                             variants={fadeIn('left', 0.3)}
                             initial="hidden"
                             whileInView={'show'}
-                            className="rounded-full"
                             src={Image}
                         />
                     </div>

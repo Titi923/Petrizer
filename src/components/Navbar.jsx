@@ -50,6 +50,7 @@ const Navbar = () => {
                         activeClass="active"
                         smooth={true}
                         spy={true}
+                        offset={200}
                         className="flex h-[50px] w-[50px] cursor-pointer items-center justify-center rounded-full"
                     >
                         <BsChatDots />
