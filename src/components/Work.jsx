@@ -111,7 +111,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                                <a href="http://titi923.pythonanywhere.com/" className="btn btn-sm px-12 py-5">
+                                <a href="http://titi923.pythonanywhere.com/" target="_blank" className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -138,7 +138,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                                <a href="https://petrizer123.000webhostapp.com/" className="btn btn-sm px-12 py-5">
+                                <a href="https://petrizer123.000webhostapp.com/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
