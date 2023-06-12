@@ -13,7 +13,7 @@ const Contact = () => {
                         </h2>
                     </div>
                     {/* Form */}
-                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-12" action="POST" data-netlify="true" netlify>
+                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-12" name="contact" netlify netlify-honeypot="bot-field" hidden>
                         <input
                             className="w-full border-b-[3px] bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
