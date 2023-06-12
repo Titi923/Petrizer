@@ -13,23 +13,27 @@ const Contact = () => {
                         </h2>
                     </div>
                     {/* Form */}
-                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-12">
+                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-12" action="POST" data-netlify="true">
                         <input
                             className="w-full border-b-[3px] bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Name"
+                            required
                         />
                         <input
                             className="w-full border-b-[3px] bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Email"
+                            required
                         />
                         <textarea
                             className="mb-12 w-full resize-none border-b-[3px] bg-transparent py-6 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Message"
+                            required
                         ></textarea>
                         <button className="btn btn-lg">Send Message</button>
+                        <div id="recaptcha" data-netlify-recaptcha="true" required></div>
                     </form>
                 </div>
             </div>
