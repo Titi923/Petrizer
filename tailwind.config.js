@@ -3,8 +3,8 @@ export default {
     content: ['./src/**/*.{js,jsx,ts,tsx}'],
     theme: {
         fontFamily: {
-            primary: 'Georgia',
-            secondary: 'Cambria',
+            primary: ['Poppins', 'sans-serif'],
+            secondary: ['Poppins', 'sans-serif'],
             tertiary: 'serift',
 
         },
@@ -22,7 +22,7 @@ export default {
         extend: {
             colors: {
                 primary: '#0a0a0a',
-                accent: '#B809C3',
+                accent: '#ec0bd1',
             },
             backgroundImage: {
                 about: "url('./assets/picture.jpg')",

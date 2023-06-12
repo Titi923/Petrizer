@@ -52,13 +52,11 @@ const Banner = () => {
                             />
                         </motion.div>
                         <p className="mx-auto mb-8 max-w-lg lg:mx-0">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Distinctio quas ullam laboriosam quam sequi
-                            eligendi, enim fugiat repellendus nostrum veritatis!
+                            Passionate developer with a love for turning ideas into digital realities. From building robust web applications to creating intuitive user interfaces, I bring a diverse skill set to every project. My goal is to create impactful solutions that shape lives and transform industries.
                         </p>
                         <div className="mx-auto mb-12 flex max-w-max items-center gap-x-6 lg:mx-0">
-                            <button className="btn btn-lg">Contact Me</button>
-                            <a href="work" className="text-gradient btn-link">
+                            <button className="btn btn-lg"><a href="#contact">Contact Me</a></button>
+                            <a href="#work" className="text-gradient btn-link">
                                 My Portfolio
                             </a>
                         </div>

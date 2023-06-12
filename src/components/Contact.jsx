@@ -1,31 +1,31 @@
 const Contact = () => {
     return (
-        <section className="lg:section py-16 my-6" id="contact">
+        <section id="contact" className="lg:section my-6 py-16">
             <div className="container mx-auto">
                 <div className="flex flex-col lg:flex-row">
                     {/* Text */}
                     <div className="flex-1">
-                        <h4 className="mb-2 text-xl font-medium uppercase tracking-wide text-accent">
-                            Get in Touch
+                        <h4 className="mb-2 text-2xl font-bold uppercase tracking-wide text-accent lg:text-[40px]">
+                            Get in Touch!
                         </h4>
                         <h2 className="mb-12 text-[40px] leading-none lg:text-[90px]">
-                            Let's work <br /> togheter!
+                            Let's Work <br /> Togheter!
                         </h2>
                     </div>
                     {/* Form */}
-                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-24">
+                    <form className="flex flex-1 flex-col items-start gap-y-6 rounded-2xl border p-6 pb-12">
                         <input
-                            className="w-full border-b bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
+                            className="w-full border-b-[3px] bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Name"
                         />
                         <input
-                            className="w-full border-b bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
+                            className="w-full border-b-[3px] bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Email"
                         />
                         <textarea
-                            className="mb-12 w-full resize-none border-b bg-transparent py-3 outline-none transition-all placeholder:text-white focus:border-accent"
+                            className="mb-12 w-full resize-none border-b-[3px] bg-transparent py-6 outline-none transition-all placeholder:text-white focus:border-accent"
                             type="text"
                             placeholder="Your Message"
                         ></textarea>

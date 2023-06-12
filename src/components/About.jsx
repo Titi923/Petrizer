@@ -1,5 +1,5 @@
 // Images
-import Image from '../assets/picture.jpg';
+import Image from '../assets/about.jpg';
 // Icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 // Typing animation
@@ -13,7 +13,7 @@ const Banner = () => {
     return (
         <section
             id="about"
-            className="flex min-h-[85vh] items-center lg:min-h-[78vh]"
+            className="flex min-h-[85vh] items-center lg:min-h-[80vh] pt-10"
         >
             <div className="container mx-auto">
                 <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
@@ -35,15 +35,13 @@ const Banner = () => {
                             initial="hidden"
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
-                            className="mb-4 text-[50px] font-bold leading-[0.8] lg:text-[80px]"
+                            className="mb-4 text-[50px] font-bold leading-[0.8] lg:text-[72px]"
                         >
                             About Me
                         </motion.h1>
                         
                         <p className="mx-auto mb-8 max-w-lg lg:mx-0">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Distinctio quas ullam laboriosam quam sequi
-                            eligendi, enim fugiat repellendus nostrum veritatis!
+                            I am a Web Developer, with over 2 years of experience into Web Dev Freelancing, creative by making beautiful designs and complex algorithms based on my clients needs, fast learner and a good teamworker.  
                         </p>
                         <div className="mx-auto mb-12 flex max-w-max items-center gap-x-6 lg:mx-0">
                             <button className="btn btn-lg"><a href="#contact">Contact Me</a></button>
