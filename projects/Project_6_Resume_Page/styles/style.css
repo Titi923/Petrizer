@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  z-index: 1;
+  font-family: 'Open sans';
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  color: #ffffff;
+}
+
+/* typography */
+h1,
+h2 {
+  font-family: 'Caveat';
+  font-size: 3rem;
+}
+
+p,
+li {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 7rem 0 3rem 0;
+  overflow: hidden;
+}
+
+.profile-picture {
+  width: 20rem;
+  border-radius: 50%;
+  border: 10px solid #f1f1f1;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 7px #000000
+}
+
+.title-circle {
+  width: 20rem;
+  border-radius: 50%;
+  border: 10px solid #f1f1f1;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.col-right {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+
+.col-right h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+.header-info {
+  background: linear-gradient(45deg, #072ba1, #d60000);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 96%, 50% 100%, 0 96%);
+  padding-bottom: 5rem;
+  margin-bottom: -7rem;
+}
+
+.contact-info {
+  background: #161616;
+  color: #dddddd;
+  text-align: center;
+  padding: 1.5rem 0 0 0;
+  margin-top: 5rem;
+}
+
+.contact-info h2 {
+  margin-top: 0.5rem;
+}
+
+.copyright {
+  background: #242424;
+  padding: 1rem 0;
+  margin: 2rem 0 0 0;
+}
+
+/* lists */
+li {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-picture {
+    margin: 0 2rem;
+    float: left;
+  }
+  .flexCenter {
+    display: inline;
+  }
+  .col-right {
+    margin-top: 1rem;
+    text-align: start;
+  }
+  .header-info {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 86%, 50% 100%, 0 86%);
+    margin-bottom: -7rem;
+  }
+}
+
+.about-me h2 {
+  margin-bottom: 0;
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: bold;
+  background: #000000;
+  padding: 0.5rem 0;
+  transition: background 0.5s ease;
+}
+
+.nav-bar li:first-child {
+  border-bottom-left-radius: 30px;
+}
+
+.nav-bar li:last-child {
+  border-bottom-right-radius: 30px;
+}
+
+.nav-bar li:hover {
+  background: rgb(0, 4, 255);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar a {
+    font-size: 2.5rem;
+    margin: 0 1.5rem;
+  }
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.skills {
+  background: linear-gradient(rgba(44, 44, 44, 0.8), rgba(62, 68, 57, 0.6)),
+    url("../images/joan-gamell-ZS67i1HLllo-unsplash.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.skills {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .flexCenter {
+    display: inline;
+  }
+}
+
+.others {
+  padding-left: 2rem;
+  padding-bottom: 0;
+}
+
+.container li {
+  list-style-image: url("../images/approve.svg");
+}
+
