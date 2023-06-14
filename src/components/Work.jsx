@@ -27,9 +27,9 @@ const Work = () => {
                             <p className="mb-8">
                                 Here are some of the projects I can show here,
                                 some are personal projects while others were
-                                build while learning an bew technology, I cannot
-                                post here the websites I built for my clients,
-                                if you want to know more than contact me.
+                                build while learning an new technology, I cannot
+                                post the websites I built for my clients here, but
+                                if you want to know more than contact me and I can show you.
                             </p>
                         </div>
                         {/* image */}
