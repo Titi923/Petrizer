@@ -2,6 +2,7 @@
 import Image from '../assets/banner.png';
 // Icons
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiCodewars, SiLeetcode } from 'react-icons/si';
 // Typing animation
 import { TypeAnimation } from 'react-type-animation';
 // Motion
@@ -62,10 +63,17 @@ const Banner = () => {
                         </div>
                         {/* Socials */}
                         <div className="mx-auto flex max-w-max gap-x-6 text-[40px] lg:mx-0">
-                            <a href="https://github.com/titi923" className='transition-color duration-300 ease hover:scale-125'>
+                            
+                            <a href="https://github.com/titi923" target='_blank' className='transition-color duration-300 ease hover:scale-125'>
                                 <FaGithub />
                             </a>
-                            <a href="https://www.linkedin.com/in/petrisor-buciuta-9078a6223/" className='transition-color duration-300 ease hover:scale-125'>
+                            <a href="https://www.codewars.com/users/Titi923" target='_blank' className='transition-color duration-300 ease hover:scale-125'>
+                                <SiCodewars />
+                            </a>
+                            <a href="https://leetcode.com/Titi923/" target='_blank' className='transition-color duration-300 ease hover:scale-125'>
+                                <SiLeetcode />
+                            </a>
+                            <a href="https://www.linkedin.com/in/petrisor-buciuta-9078a6223/" target='_blank' className='transition-color duration-300 ease hover:scale-125'>
                                 <FaLinkedin />
                             </a>
                         </div>
