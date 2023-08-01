@@ -57,7 +57,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                                <a href="https://silly-pegasus-dd1702.netlify.app/project_1_website_designer/index_project_1" target='_blank' className="btn btn-sm px-12 py-5">
+                                <a href="https://mellow-sawine-4f0882.netlify.app/project_1_website_designer/index_project_1" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -84,7 +84,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                            <a href="https://silly-pegasus-dd1702.netlify.app/project_8_real_estate_website/" target='_blank' className="btn btn-sm px-12 py-5">
+                            <a href="https://mellow-sawine-4f0882.netlify.app/project_8_real_estate_website/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ const Work = () => {
                                 </span>
                             </div>
                             <div className=" absolute -bottom-full left-11 z-50 transition-all duration-700 group-hover:bottom-14">
-                            <a href="https://silly-pegasus-dd1702.netlify.app/project_4_web_weather_api_app/" target='_blank' className="btn btn-sm px-12 py-5">
+                            <a href="https://mellow-sawine-4f0882.netlify.app/project_4_web_weather_api_app/" target='_blank' className="btn btn-sm px-12 py-5">
                                     Go to Project
                                 </a>
                             </div>
